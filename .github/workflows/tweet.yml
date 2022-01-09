@@ -1,0 +1,18 @@
+name: Tweet
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+
+jobs:
+  tweet:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Git Checkout Deno Module
+        uses: actions/checkout@v2
+      - uses: denoland/setup-deno@v1
+        with:
+          deno-version: v1.x
+      - name: Build Deno Module
+        run: deno run ./index.js
