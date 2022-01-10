@@ -11,6 +11,11 @@ jobs:
     steps:
       - name: Git Checkout Deno Module
         uses: actions/checkout@v2
+      - name: Checkout game state
+        uses: actions/checkout@v2
+        with:
+          ref: save
+          path: data
       - uses: denoland/setup-deno@v1
         with:
           deno-version: v1.x
@@ -20,4 +25,13 @@ jobs:
           TWITTER_CONSUMER_SECRET: ${{ secrets.TWITTER_CONSUMER_SECRET }}
           TWITTER_ACCESS_TOKEN_KEY: ${{ secrets.TWITTER_ACCESS_TOKEN_KEY }}
           TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
-        run: deno run --lock=lock.json --allow-env --allow-net ./mod.js
+        run: deno run --lock=lock.json --lock-write --allow-env --allow-net --allow-write --allow-read ./mod.js
+      - name: Commit and push
+        run: |-
+          cd ./data
+          git config user.name "Twitris"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          timestamp=$(date -u)
+          git commit -m "Latest data: ${timestamp}" || exit 0
+          git push
