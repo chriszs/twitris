@@ -1,5 +1,25 @@
 {
-  "https://cdn.skypack.dev/-/d3-array@v3.1.1-Ibshj34oOmCw8da1RLSW/dist=es2019,mode=imports/optimized/d3-array.js": "8d212e48fb1a62da8a0e7d88553b89ea764175bf55da915e0fd3be06bd3ef16a",
-  "https://cdn.skypack.dev/-/internmap@v2.0.3-GWZlRrRMFcDlELwTQEZq/dist=es2019,mode=imports/optimized/internmap.js": "77e29a5bef36c16d18121b32eada72008b641365e40ace81612c17db8c9fc00b",
-  "https://cdn.skypack.dev/d3-array": "2bcb4583f15bc6f978b0e159af182c781f7d234ecb245530344d12c56e8daa36"
+  "https://deno.land/std@0.51.0/fmt/colors.ts": "127ce39ca2ad9714d4ada8d61367f540d76b5b0462263aa839166876b522d3de",
+  "https://deno.land/std@0.51.0/hash/sha1.ts": "f963ff591f45ad6b129a060a3f28a9f6a14ee8e88db87cacf4fd7bd53b56d651",
+  "https://deno.land/std@0.51.0/node/util.ts": "23b9d747de17493a5ca42c27852b2e06f84aab43517af1ac21d2aa4940bd1deb",
+  "https://deno.land/std@0.51.0/testing/asserts.ts": "213fedbb90a60ae232932c45bd62668f0c5cd17fc0f2a273e96506cba416d181",
+  "https://deno.land/std@0.51.0/testing/diff.ts": "8f591074fad5d35c0cafa63b1c5334dc3a17d5b934f3b9e07172eed9d5b55553",
+  "https://deno.land/std@0.51.0/uuid/_common.ts": "6fd4cb11fb959d6181fe91e7e0be77a91a0aee4dfea5fbc6cb768f1b56404298",
+  "https://deno.land/std@0.51.0/uuid/mod.ts": "3b37d4e0e75891caa5c63c79dedb68a5f449b6c4e9f57ec4e57e385099674030",
+  "https://deno.land/std@0.51.0/uuid/v1.ts": "0e37292975b956f6591c057398cfb4fbd9a06f22b45e22224fe9a5a9373126d7",
+  "https://deno.land/std@0.51.0/uuid/v4.ts": "ddfce12c2e271a9422751df420d755f44197856f41c6cd37e2606e168d978d58",
+  "https://deno.land/std@0.51.0/uuid/v5.ts": "4ed84017abfa62095861b9a3babed1169bc39db8261b3fdaccc3c5586b2d4862",
+  "https://deno.land/x/base64@v0.2.1/base.ts": "47dc8d68f07dc91524bdd6db36eccbe59cf4d935b5fc09f27357a3944bb3ff7b",
+  "https://deno.land/x/base64@v0.2.1/base64url.ts": "18bbf879b31f1f32cca8adaa2b6885ae325c2cec6a66c5817b684ca12c46ad5e",
+  "https://deno.land/x/base64@v0.2.1/mod.ts": "1cbdc4ba7229d3c6d1763fecdb9d46844777c7e153abb6dabea8b0dd01448db4",
+  "https://deno.land/x/hmac@v2.0.1/deps.ts": "c2cb0fb44389a76b253cc27a1cadfbe9f03ede2ddea0d940b5389d683940217c",
+  "https://deno.land/x/hmac@v2.0.1/mod.ts": "83590b95de468d0cf5398b7631b4fb62a64226786247fe265482045d799e8f97",
+  "https://denopkg.com/chiefbiiko/sha1@v2.0.0/deps.ts": "434b70f37ed145ca5259353c96fdee1e7d1cd8c6a32baad9dce2aedc79d0a3bc",
+  "https://denopkg.com/chiefbiiko/sha1@v2.0.0/mod.ts": "146a101c9776cc9c807053c93f23e4b321ade5251f65745df418f4a75d5fd27b",
+  "https://denopkg.com/chiefbiiko/sha256@v2.0.0/deps.ts": "434b70f37ed145ca5259353c96fdee1e7d1cd8c6a32baad9dce2aedc79d0a3bc",
+  "https://denopkg.com/chiefbiiko/sha256@v2.0.0/mod.ts": "f109aa5eeb201a0cbfaf44950b70a429838b187e8a84c5b810c1ac84953427cc",
+  "https://denopkg.com/chiefbiiko/sha512@v2.0.0/deps.ts": "434b70f37ed145ca5259353c96fdee1e7d1cd8c6a32baad9dce2aedc79d0a3bc",
+  "https://denopkg.com/chiefbiiko/sha512@v2.0.0/mod.ts": "33190babd4c0e748bb2568fd003444487c8798c8c3a618f6593098c12805fe15",
+  "https://denopkg.com/chiefbiiko/std-encoding@v1.1.1/mod.ts": "e61017da4cef146863d614a961b4e61f1df14b72c906092bd02161f913e76522",
+  "https://raw.githubusercontent.com/stefanuros/deno_twitter_api/master/twitterApi.ts": "f6decc3d1c5dab69c66b287944023c200633090abfab2563395c9b2064f27045"
 }
