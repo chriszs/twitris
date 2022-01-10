@@ -1,7 +1,6 @@
 {
-  "https://cdn.skypack.dev/-/d3-array@v3.1.1-Ibshj34oOmCw8da1RLSW/dist=es2019,mode=imports/optimized/d3-array.js": "8d212e48fb1a62da8a0e7d88553b89ea764175bf55da915e0fd3be06bd3ef16a",
-  "https://cdn.skypack.dev/-/internmap@v2.0.3-GWZlRrRMFcDlELwTQEZq/dist=es2019,mode=imports/optimized/internmap.js": "77e29a5bef36c16d18121b32eada72008b641365e40ace81612c17db8c9fc00b",
-  "https://cdn.skypack.dev/d3-array": "2bcb4583f15bc6f978b0e159af182c781f7d234ecb245530344d12c56e8daa36",
+  "https://cdn.jsdelivr.net/npm/d3-array/+esm": "6b7c80f42e8d80b3212c723e3cce9a5480a63a82797e898e5042832b5e523e9b",
+  "https://cdn.jsdelivr.net/npm/internmap@2.0.3/+esm": "1bbc576bc96c6bc182bd5527ca667fccda9e78ed71d4f46065f12f6c055c82ca",
   "https://deno.land/std@0.51.0/fmt/colors.ts": "127ce39ca2ad9714d4ada8d61367f540d76b5b0462263aa839166876b522d3de",
   "https://deno.land/std@0.51.0/hash/sha1.ts": "f963ff591f45ad6b129a060a3f28a9f6a14ee8e88db87cacf4fd7bd53b56d651",
   "https://deno.land/std@0.51.0/node/util.ts": "23b9d747de17493a5ca42c27852b2e06f84aab43517af1ac21d2aa4940bd1deb",
