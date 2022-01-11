@@ -12,4 +12,8 @@ try {
 game.update();
 await game.writeFile('data/save.json');
 
-twitter.tweet(game.draw());
+try {
+    await twitter.tweet(game.draw());
+} catch (e) {
+    console.log(e);
+}
