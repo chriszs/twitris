@@ -11,7 +11,6 @@ try {
   // no save
 }
 game.update();
-await game.writeFile("data/save.json");
 
 const replies = await twitter.getReplies((await twitter.getLastTweet()).id);
 
@@ -42,6 +41,8 @@ if (spin > 0 && spin > left && spin > right) {
   console.log("go right");
   game.right();
 }
+
+await game.writeFile("data/save.json");
 
 const status = game.draw();
 
