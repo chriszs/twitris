@@ -48,7 +48,7 @@ const status = game.draw();
 console.log(status);
 
 try {
-  // await twitter.tweet(status);
+  await twitter.tweet(status);
 } catch (e) {
   console.log(e);
 }
