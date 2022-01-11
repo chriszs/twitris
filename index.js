@@ -3,12 +3,12 @@ import Twitter from "./lib/twitter.js";
 
 const twitter = new Twitter();
 
-const game = new Game(8, 13);
+let game = null;
 
 try {
-  await game.readFile("data/save.json");
+  game = await Game.readFile("data/save.json");
 } catch (e) {
-  // no save
+  let game = new Game(8, 13);
 }
 await game.update();
 
