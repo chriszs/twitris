@@ -10,23 +10,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Git Checkout Deno Module
+      - name: Git checkout code
         uses: actions/checkout@v2
       - name: Checkout game state
         uses: actions/checkout@v2
         with:
           ref: save
           path: data
-      - uses: denoland/setup-deno@v1
+      - uses: actions/setup-node@v2
         with:
-          deno-version: v1.x
-      - name: Run Deno
+          node-version: '16'
+      - run: npm install
+      - name: Run game
         env:
           TWITTER_CONSUMER_KEY: ${{ secrets.TWITTER_CONSUMER_KEY }}
           TWITTER_CONSUMER_SECRET: ${{ secrets.TWITTER_CONSUMER_SECRET }}
           TWITTER_ACCESS_TOKEN_KEY: ${{ secrets.TWITTER_ACCESS_TOKEN_KEY }}
           TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
-        run: deno run --lock=lock.json --allow-env --allow-net --allow-write --allow-read ./mod.js
+        run: node index.js
       - name: Commit and push
         run: |-
           cd ./data
