@@ -78,7 +78,7 @@
         2
       ],
       "rotation": 1,
-      "fixed": true
+      "fixed": false
     }
   ],
   "rows": [
