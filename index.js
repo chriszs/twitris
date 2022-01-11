@@ -10,16 +10,16 @@ try {
 } catch (e) {
   // no save
 }
-// await game.update();
+await game.update();
 
-// await game.writeFile("data/save.json");
+await game.writeFile("data/save.json");
 
-// const status = game.draw();
+const status = game.draw();
 
 console.log(status);
 
 try {
-  // await twitter.tweet(status);
+  await twitter.tweet(status);
 } catch (e) {
   console.log(e);
 }
