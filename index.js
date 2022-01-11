@@ -32,8 +32,8 @@ const spin = replies.filter(
 ).length;
 
 if (spin > 0 && spin > left && spin > right) {
-  console.log("spin right");
-  game.tiltRight();
+  console.log("spin left");
+  game.tiltLeft();
 } else if (left > 0 && left > right) {
   console.log("go left");
   game.left();
