@@ -10,7 +10,7 @@ try {
 } catch (e) {
   // no save
 }
-game.update();
+await game.update();
 
 await game.writeFile("data/save.json");
 
