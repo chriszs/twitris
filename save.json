@@ -156,7 +156,7 @@
         6
       ],
       "rotation": 2,
-      "fixed": false
+      "fixed": true
     }
   ],
   "rows": [
