@@ -118,7 +118,7 @@
         0
       ],
       "rotation": 1,
-      "fixed": false
+      "fixed": true
     }
   ],
   "rows": [
