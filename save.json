@@ -216,7 +216,7 @@
         3
       ],
       "rotation": 2,
-      "fixed": true
+      "fixed": false
     },
     {
       "shape": [
