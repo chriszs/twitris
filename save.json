@@ -38,7 +38,7 @@
         5
       ],
       "rotation": 3,
-      "fixed": false
+      "fixed": true
     }
   ],
   "rows": [
