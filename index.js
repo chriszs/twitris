@@ -10,16 +10,17 @@ try {
 } catch (e) {
   let game = new Game(8, 13);
 }
-await game.update();
-
-await game.writeFile("data/save.json");
-
-const status = game.draw();
 
 console.log(status);
 
 try {
+  await game.update();
+
+  const status = game.draw();
+  
   await twitter.tweet(status);
+  
+  await game.writeFile("data/save.json");
 } catch (e) {
   console.log(e);
 }
