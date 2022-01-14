@@ -11,12 +11,12 @@ try {
   let game = new Game(8, 13);
 }
 
-console.log(status);
-
 try {
   await game.update();
 
   const status = game.draw();
+  
+  console.log(status);
   
   await twitter.tweet(status);
   
