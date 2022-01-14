@@ -14,13 +14,13 @@ try {
 try {
   await game.update();
 
+  await game.writeFile("data/save.json");
+  
   const status = game.draw();
   
   console.log(status);
   
   await twitter.tweet(status);
-  
-  await game.writeFile("data/save.json");
 } catch (e) {
   console.log(e);
 }
