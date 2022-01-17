@@ -344,6 +344,26 @@
         4
       ],
       "rotation": 1,
+      "fixed": true
+    },
+    {
+      "shape": [
+        [
+          "🟪",
+          "🟪",
+          "🟪"
+        ],
+        [
+          null,
+          "🟪",
+          null
+        ]
+      ],
+      "position": [
+        -1,
+        3
+      ],
+      "rotation": 2,
       "fixed": false
     }
   ],
