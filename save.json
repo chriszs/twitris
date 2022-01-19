@@ -226,6 +226,22 @@
         1
       ],
       "rotation": 5,
+      "fixed": true
+    },
+    {
+      "shape": [
+        [
+          "🟧",
+          "🟧",
+          "🟧",
+          "🟧"
+        ]
+      ],
+      "position": [
+        -1,
+        0
+      ],
+      "rotation": 3,
       "fixed": false
     }
   ],
