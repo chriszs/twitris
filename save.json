@@ -18,6 +18,26 @@
         5
       ],
       "rotation": 6,
+      "fixed": true
+    },
+    {
+      "shape": [
+        [
+          null,
+          "🟫",
+          "🟫"
+        ],
+        [
+          "🟫",
+          "🟫",
+          null
+        ]
+      ],
+      "position": [
+        -1,
+        2
+      ],
+      "rotation": 2,
       "fixed": false
     }
   ],
