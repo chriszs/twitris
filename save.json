@@ -264,6 +264,22 @@
         3
       ],
       "rotation": 2,
+      "fixed": true
+    },
+    {
+      "shape": [
+        [
+          "🟧",
+          "🟧",
+          "🟧",
+          "🟧"
+        ]
+      ],
+      "position": [
+        -1,
+        1
+      ],
+      "rotation": 0,
       "fixed": false
     }
   ],
