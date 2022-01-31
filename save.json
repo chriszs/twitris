@@ -220,6 +220,24 @@
         0
       ],
       "rotation": 3,
+      "fixed": true
+    },
+    {
+      "shape": [
+        [
+          "🟨",
+          "🟨"
+        ],
+        [
+          "🟨",
+          "🟨"
+        ]
+      ],
+      "position": [
+        -1,
+        5
+      ],
+      "rotation": 2,
       "fixed": false
     }
   ],
