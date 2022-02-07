@@ -154,6 +154,22 @@
         0
       ],
       "rotation": 0,
+      "fixed": true
+    },
+    {
+      "shape": [
+        [
+          "🟧",
+          "🟧",
+          "🟧",
+          "🟧"
+        ]
+      ],
+      "position": [
+        -1,
+        1
+      ],
+      "rotation": 1,
       "fixed": false
     }
   ],
