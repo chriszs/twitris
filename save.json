@@ -92,6 +92,24 @@
         3
       ],
       "rotation": 1,
+      "fixed": true
+    },
+    {
+      "shape": [
+        [
+          "🟨",
+          "🟨"
+        ],
+        [
+          "🟨",
+          "🟨"
+        ]
+      ],
+      "position": [
+        -1,
+        0
+      ],
+      "rotation": 0,
       "fixed": false
     }
   ],
