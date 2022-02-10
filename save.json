@@ -70,6 +70,22 @@
         2
       ],
       "rotation": 0,
+      "fixed": true
+    },
+    {
+      "shape": [
+        [
+          "🟧",
+          "🟧",
+          "🟧",
+          "🟧"
+        ]
+      ],
+      "position": [
+        -1,
+        2
+      ],
+      "rotation": 3,
       "fixed": false
     }
   ],
